@@ -13,7 +13,7 @@ body {
   line-height: 1.5;
   flex-direction: row;
   min-height: 100vh;
-  background-image: url("/media/img/assets/boxer.webp");
+  background-image: url("media/img/assets/boxer.webp");
   background-size: 900px;
   background-position: top right;
   background-repeat: space repeat;
@@ -507,7 +507,7 @@ h2.title {
 }
 
 .sidebar {
-  /* background-image: url("/media/img/assets/boxer.png"); */
+  /* background-image: url("media/img/assets/boxer.png"); */
   /* background-size: auto; */
   background-image: none !important;
   background-color: black;

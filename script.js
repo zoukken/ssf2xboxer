@@ -5,10 +5,10 @@ function showContent(contentId) {
   contentContainer.innerHTML = '';
 
   const contentMap = {
-    guide: '/guide.html',
-    advanced: '/advanced.html',
-    combos: '/combos.html',
-    matchups: '/matchups.html'
+    guide: 'guide.html',
+    advanced: 'advanced.html',
+    combos: 'combos.html',
+    matchups: 'matchups.html'
   };
 
   const url = contentMap[contentId];
