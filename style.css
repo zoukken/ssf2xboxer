@@ -405,19 +405,12 @@ ul.combos {
 
 
 
-li {
-  margin-left: 16px;
-}
-ul>li {
-  margin-bottom: 0px;
-  margin: 0;
-  padding: 0;
+ul, li {
+  margin-left: 0px;
+  list-style:inside;
+  padding: 0px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
 
 ol>li {
   margin-bottom: 10px
