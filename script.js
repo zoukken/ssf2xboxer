@@ -45,13 +45,13 @@ function showContent(contentId) {
 
 // Display "Guide" by default and maintain active menu color when clicked away.
 document.addEventListener("DOMContentLoaded", () => {
-  const buttons = document.querySelectorAll(".color-button");
+  const buttons = document.querySelectorAll(".nav-button");
   document.getElementById('button1')?.classList.add('active');
   showContent('guide');
   // Toggle active state on button click
   buttons.forEach(button => {
     button.addEventListener("click", () => {
-      document.querySelector(".color-button.active")?.classList.remove("active");
+      document.querySelector(".nav-button.active")?.classList.remove("active");
       button.classList.add("active");
     });
   });
@@ -76,53 +76,25 @@ function toggleContent(contentId, clickedLink) {
 
 
 // Lazy-loads <video> elements when they enter the viewport
+// loading the video 200px before it actually scrolls into view (preload effect).
 document.addEventListener('DOMContentLoaded', () => {
-  const observer = new IntersectionObserver((entries, obs) => {
-    entries.forEach(({ isIntersecting, target }) => {
-      if (isIntersecting) {
-        const src = target.dataset.src;
-        if (src) {
-          target.querySelector('source').src = src;
-          target.load();
-          obs.unobserve(target);
-        }
-      }
-    });
-  });
-
-  document.querySelectorAll('video[data-src]').forEach(v => observer.observe(v));
-});
-
-// Lazy-loads <img> elements with the class "lazy-image" when they enter the viewport
-document.addEventListener("DOMContentLoaded", () => {
-  const lazyImages = document.querySelectorAll('img.lazy-image');
-  const lazyVideos = document.querySelectorAll('video[data-poster]');
-
-  const observer = new IntersectionObserver((entries, observer) => {
+  const videoObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
-
-      const el = entry.target;
-
-      // Handle <img>
-      if (el.tagName === 'IMG' && el.dataset.src) {
-        el.src = el.dataset.src;
-        el.classList.remove('lazy-image');
+      if (entry.isIntersecting) {
+        const video = entry.target;
+        video.load(); // manually trigger load when near viewport
+        observer.unobserve(video);
       }
-
-      // Handle <video>
-      if (el.tagName === 'VIDEO' && el.dataset.poster) {
-        el.poster = el.dataset.poster;
-        el.removeAttribute('data-poster');
-      }
-
-      observer.unobserve(el);
     });
   }, {
     rootMargin: '0px 0px 200px 0px',
     threshold: 0.01
   });
 
-  lazyImages.forEach(img => observer.observe(img));
-  lazyVideos.forEach(video => observer.observe(video));
+  document.querySelectorAll('video').forEach(video => {
+    // Only observe videos with preload="none"
+    if (video.querySelector('source') && video.getAttribute('preload') === 'none') {
+      videoObserver.observe(video);
+    }
+  });
 });
