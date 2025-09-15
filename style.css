@@ -13,7 +13,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   flex-direction: row;
-  min-height: 100vh;
+  min-height: 100%;
   background-image: url("media/img/assets/boxer.webp");
   background-size: 900px;
   background-position: top right;
@@ -113,6 +113,7 @@ a:hover {
 
 .main-content video {
   width: 100%;
+  border-radius: 10px;
 }
 
 .main-content h1, .main-content h2 {
@@ -147,6 +148,7 @@ table.guide {
 .guide th:first-child {
   background: #3e3c3b;
   color: white;
+  text-align: center;
 }
 
 .guide td:nth-child(2),
@@ -273,8 +275,6 @@ table.punishing-ranges {
 }
 
 
-
-
 td {
   border: 1px solid #ccc;
   padding: 6px;
@@ -309,16 +309,6 @@ ol li::before {
   text-decoration: none
 }
 
-ul.combos li {
-  list-style-type: none;
-  border-bottom: 1px solid #d1d1d1;
-  margin-bottom: 10px
-}
-
-ul.combos {
-  padding: 5px
-}
-
 
 ul, li {
   margin-left: 0px;
@@ -328,7 +318,8 @@ ul, li {
 
 
 ol>li {
-  margin-bottom: 10px
+  margin-bottom: 10px;
+  list-style:disc ;
 }
 
 .inputs {

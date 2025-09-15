@@ -1,4 +1,3 @@
-
 // Load content dynamically based on menu clicks
 function showContent(contentId) {
   const contentContainer = document.getElementById("content-container");
@@ -98,3 +97,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+
