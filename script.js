@@ -74,28 +74,39 @@ function toggleContent(contentId, clickedLink) {
 }
 
 
+
+
 // Lazy-loads <video> elements when they enter the viewport
-// loading the video 200px before it actually scrolls into view (preload effect).
-document.addEventListener('DOMContentLoaded', () => {
-  const videoObserver = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const video = entry.target;
-        video.load(); // manually trigger load when near viewport
-        observer.unobserve(video);
+document.addEventListener("DOMContentLoaded", () => {
+  const videos = document.querySelectorAll("video");
+
+  // Remove 'src' from sources but keep poster visible
+  videos.forEach(video => {
+    video.querySelectorAll("source").forEach(source => {
+      if (source.src) {
+        source.setAttribute("data-src", source.src);
+        source.removeAttribute("src");
       }
     });
-  }, {
-    rootMargin: '0px 0px 200px 0px',
-    threshold: 0.01
   });
 
-  document.querySelectorAll('video').forEach(video => {
-    // Only observe videos with preload="none"
-    if (video.querySelector('source') && video.getAttribute('preload') === 'none') {
-      videoObserver.observe(video);
-    }
-  });
+  const loadVideo = (video) => {
+    video.querySelectorAll("source").forEach(source => {
+      if (source.dataset.src) {
+        source.src = source.dataset.src;
+      }
+    });
+    video.load(); // trigger actual loading
+  };
+
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        loadVideo(entry.target);
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.25 });
+
+  videos.forEach(video => observer.observe(video));
 });
-
-
