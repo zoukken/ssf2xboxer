@@ -1,3 +1,14 @@
+// Dynamically set the <base> URL depending on where the site is running.
+document.addEventListener("DOMContentLoaded", () => {
+  const base = document.createElement("base");
+  if (location.hostname === "zoukken.github.io") {
+    base.href = "/ssf2xboxer/"; // Online - GitHub Pages
+  } else {
+    base.href = "/"; // Local (file:// or localhost)
+  }
+  document.head.prepend(base);
+});
+
 // Load content dynamically based on menu clicks
 function showContent(contentId) {
   const contentContainer = document.getElementById("content-container");
@@ -24,7 +35,7 @@ function showContent(contentId) {
     .then(html => {
       contentContainer.innerHTML = html;
 
-      // Extra logic: if matchups, auto-select Ryu
+      // Extra logic: if matchups page, auto-select Ryu
       if (contentId === "matchups") {
         setTimeout(() => {
           const ryuLink = contentContainer.querySelector('#charselect a');
@@ -57,9 +68,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-// Toggle Content on matchup section
+// Matchup - Toggle character content
 function toggleContent(contentId, clickedLink) {
-  // Hide all content sections
+  // Hide all content sections by default
   document.querySelectorAll("#ryu, #honda, #blanka, #guile, #thawk, #feilong, #boxer, #sagat, #ken, #chunli, #zangief, #dhalsim, #cammy, #deejay, #vega, #mbison")
     .forEach(el => el.style.display = "none");
 
