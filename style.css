@@ -68,8 +68,9 @@ h2.title{background:#3e3c3b}
 .video-js .vjs-big-play-button{display:block!important}
 .video-js.vjs-has-started .vjs-big-play-button{display:none!important}
 @media (max-width:768px){
+body{padding-top:60px}
 .container{flex-direction:column;min-height:auto}
-.sidebar{width:100%;order:1;background-color:#fff!important}
+.sidebar{position:fixed;top:0;left:0;width:100%;z-index:1000;background-color:#ffffffc7!important;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:.75rem 1rem;box-sizing:border-box}
 .content{order:1;border-radius:5px}
 .nav-guide button{color:#a7a7a7;font-weight:400}
 .nav-guide{flex-direction:row;align-items:center;padding:10px;background-image:none!important}
