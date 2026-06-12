@@ -2,37 +2,32 @@
 
 ## Overview
 
-* Tough matchup, hard to approach
-* Her normals can easily counter boxer dashes.
-* Play at distance
+* Tough matchup, hard for Boxer to get in.
+* She can stop your approaches easily
 * Build meter when possible
-* Avoid predictable TAP
-* Use Dash Straight to trade against her fireball
-* Be careful to her walk > Super
+* Use 5HP or Dash Straight to trade with her fireball
+* Be careful to her walk > Super tech
 
 
 ## Lightning Legs## 
 <video data-videojs data-src="media/videos/matchups/chun-li/Chunli_LightningLegs.mp4"
 class="video-js vjs-theme-city"></video>
 
-Hard to whiff punish since she can quickly stop or repeat it continuously.
-* Invul. with high priority, beats most attacks.
-* Short recovery; she can follow up with Upkicks.
-* On block, try to punish with Super.
+This high-priority move can beat most attacks. She can stop or repeat it quickly. If you're close enough, try to punish it with Super, but be aware that there are no consistent punishes.
 
 
 ## Neck Breaker (3HK)
 <video data-videojs data-src="media/videos/matchups/chun-li/Chunli_NeckBreaker.mp4"
 class="video-js vjs-theme-city"></video>
 
-* Hits high (overhead), also low if deep enough.
-* Safe (+8) and airborne frame 1, avoiding throws and reversals.
-* A well-timed neck breaker leaves you no choice but to block on wake-up
+* Hits mid and can also hit low if it connects deep enough, so block low.
+* Can cross up.
+* Safe on block (+8) and airborne from frame 1, allowing it to avoid throws.
 
 
 ## Fake crossup
 <video data-videojs data-src="media/videos/matchups/chun-li/Chunli_FakeCrossup.mp4"
 class="video-js vjs-theme-city"></video>
+This setup makes Chun's reversal either whiff or get hit by j.HK. In the corner, she always gets hit
 
 * 2HK > Upper LK > j.HK
-* This makes Chun's reversal either whiff or get hit by j.HK; in the corner, she always gets hit
