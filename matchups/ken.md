@@ -1,20 +1,17 @@
 # Ken
-* Try to bait and whiff punish Shoryuken
+* Try to bait and punish Shoryuken
 * Avoid his Knee bash setups and mixups
 * Build meter when possible
-* Can’t be safe-jumped (reversal heavy DP)
-* Be careful with Ken’s super, it recovers quickly
-* Block/Whiff: Super and Heavy DP can switch sides
+* You can’t use safe jump against him 
+* Be careful with of his super, it recovers quickly
 
 ### Shoryuken
 <video data-videojs data-src="media/videos/matchups/ken/Ken_Shoryuken.mp4"
 class="video-js vjs-theme-city"></video>
 
-* Players often use light DPs to catch dashes.
-* Since DPs knock down, they set up strong pressure and mixups.
-* Whiff punish with dash low, Upper or Straight.
+* Players often use light DPs to catch dashes then set up strong pressure/mixups.
+* Whiff punish with Dash or 5HP
 * Then take advantage of it for meter build.
-* No charge ? Punish with throw or 5HP
 
 #### Notes 
 * LP Shoryuken: Don't react too quickly, it stays active for a short time.

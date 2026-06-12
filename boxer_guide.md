@@ -2,16 +2,25 @@
 
 ![Description](boxer.png)
 
-
 <details>
-  <summary>Basics</summary>
 
+  <summary>Resources</summary>
 
-#### Ressources
 * [ToniToniVersus - Balrog Move List](https://youtu.be/dfPMQB4H0Ss?si=1eXlYwZ3Ui8iVmEG)
 * [Andor - How to play Boxer in 3 minutes!](https://youtu.be/9jyY7vGSHyw)
 * [Bazoukha - Boxer Tuto - Part 1](https://youtu.be/w5Z-ignB6y0) / [Part 2](https://youtu.be/jXcMG7GM7tw)
 * [Fighter101 - Balrog TAP guide](https://youtu.be/PrnYWfezoeM)
+* [Abdel2x - Combos, BnB & ToD](https://www.youtube.com/watch?v=i73GT29GIfg)
+* [Silentscope88 - Combo Trial Video](https://www.youtube.com/watch?v=8NF8qJ8Wxno)
+* [Fighter101 - Combo exhibition & Guide](https://youtu.be/_igTkYXqpvU)
+* [Bison Taro - Bison Super cancel](https://youtu.be/mkKqSexapL4)
+* [ST - Super Canceling Techniques](https://sonichurricane.com/?p=394)
+
+</details>
+
+
+<details>
+  <summary>Basics</summary>
 
 #### 1. Pokes
 <video data-videojs data-src="media/videos/guide/pokes.mp4"
@@ -20,10 +29,10 @@ class="video-js vjs-theme-city"></video>
 |  |  |
 | :--- | :--- |
 | 5LP | Cancelable |
-| 2LP | Tick throw / Frametraps / Preemptive attack |
-| 2MP | Cancelable / Frametraps |
-| 2MK | Meaty / Frametraps / Low counter (slides, 2MK, etc.) / Link: 2MP or Super |
-| 5HP | Long range / Frametraps |
+| 2LP | Tick throw <br> Frametraps <br> Preemptive attack |
+| 2MP | Cancelable <br> Frametraps |
+| 2MK | Meaty <br> Frametraps <br> Low counter (slides, 2MK, etc.) <br> Link: 2MP or Super |
+| 5HP | Long range <br> Frametraps |
 
 #### 2. Anti-air & Headbutt
 <video data-videojs data-src="media/videos/guide/anti-air.mp4"
@@ -87,7 +96,7 @@ class="video-js vjs-theme-city"></video>
 <video data-videojs data-src="media/videos/guide/boxer_charge_management.mp4"
 class="video-js vjs-theme-city"></video>
 
-* Quickly chain two charge specials to improve mobility, build meter, find openings, and more.
+* Quickly chain specials to improve mobility, build meter, find openings, and more.
 * Follow with TAP to gain more movement options and meter-building possibilities.
 
 |  |  |
@@ -106,82 +115,15 @@ class="video-js vjs-theme-city"></video>
 </details>
 
 
-<details>
-  <summary>Combos</summary>
-
-#### Resources
-* [Abdel2x - Combos, BnB & ToD](https://www.youtube.com/watch?v=i73GT29GIfg)
-* [Silentscope88 - Combo Trial Video](https://www.youtube.com/watch?v=8NF8qJ8Wxno)
-* [Fighter101 - Combo exhibition & Guide](https://youtu.be/_igTkYXqpvU)
-* [Bison Taro - Bison Super cancel](https://youtu.be/mkKqSexapL4)
-* [ST - Super Canceling Techniques](https://sonichurricane.com/?p=394)
-
-#### 1. Hit confirm
-<video data-videojs data-src="media/videos/combos/normal_confirms.mp4"
-class="video-js vjs-theme-city"></video>
-
-* 2LP,2LP is a chain combo
-* 2LK~2LK, is a link by default.
-
-##### Normal confirms
-* 5LP/2LP > Dash
-* 2LK > Dash
-* 2MP > Dash
-* 2MK > 2MP > Dash
-
-##### Standing Opponent
-* 2LP, 2LP, 5LP > Dash
-* 2MK > 5LP > Dash
-
-
-#### 2. Jump-Ins
-<video data-videojs data-src="media/videos/combos/jump-in.mp4"
-class="video-js vjs-theme-city"></video>
-
-* Hit deep (center of body) to confirm a jump-in, otherwise it won't combo.
-
-##### Jump-Ins
-* j.HP or j.MP > 5HP
-* j.HP > 5MK > Dash
-* j.HP > 2MP > Dash
-* j.HP > 2MK > 2MP > Dash
-##### Standing Opponent
-* j.HK, 2LP > 5LP > Dash
-
-#### 3. Super
-<video data-videojs data-src="media/videos/combos/super_cancel.mp4"
-class="video-js vjs-theme-city"></video>
-
-##### Super link
-* 2MK > Super
-* 2MK, 2MK > Super
-##### Super cancel
-* 2MP or 2HP > Super
-* 2MK > 2MP > Super
-* 2MK > 5MK > Super
-##### Renda cancel (Super chain cancel)
-* 2LP, 2LP, 2LP > Super : `[1]LP,LP > 321LP > 6LP~MP`
-* 2LP, 2LP, 5LP > Super : `[1]LP,LP > 3214LP > 6LP~MP`
-
-</details>
-
-
 
 <details>
   <summary>Advanced</summary>
-
-#### Resources
-* [Doctorguile - Hitboxes and FrameData](https://doctorguile.github.io/ssf2st/)
-* [Toufadev - Hitboxes Theory](https://toufadev.github.io/ssf2st/)
-* [T-Akiba's Street Fighter 2 FrameData](https://zachd.com/nki/ST/flame.html)
-* [Had0k3n - SF2 Boxer Tips](https://www.youtube.com/@Had0k3n2X)
-* [Supercombo - Balrog](https://wiki.supercombo.gg/w/Super_Street_Fighter_2_Turbo/Balrog)
 
 #### 1. Meter build
 <video data-videojs data-src="media/videos/advanced/Meter_build.mp4"
 class="video-js vjs-theme-city"></video>
 
-* Super is essential in hard matchups. 
+* It is important to get the super especially in hard matchups
 * Build meter whenever possible by whiffing special moves, especially after a knockdown.
 
 ##### Midscreen - Knockdown
@@ -299,3 +241,58 @@ Boxer’s Super can be broken into parts, letting you charge then walk for up to
   * Part 1: charge and walk up to 15F
   * Part 2: back 1F
   * Part 3: walk up to 11F then press P
+
+<details>
+  <summary>Combos</summary>
+
+#### 1. Hit confirm
+<video data-videojs data-src="media/videos/combos/normal_confirms.mp4"
+class="video-js vjs-theme-city"></video>
+
+* 2LP,2LP is a chain combo
+* 2LK~2LK, is a link by default.
+
+##### Normal confirms
+* 5LP/2LP > Dash
+* 2LK > Dash
+* 2MP > Dash
+* 2MK > 2MP > Dash
+
+##### Standing Opponent
+* 2LP, 2LP, 5LP > Dash
+* 2MK > 5LP > Dash
+
+
+#### 2. Jump-Ins
+<video data-videojs data-src="media/videos/combos/jump-in.mp4"
+class="video-js vjs-theme-city"></video>
+
+* Hit deep (center of body) to confirm a jump-in, otherwise it won't combo.
+
+##### Jump-Ins
+* j.HP or j.MP > 5HP
+* j.HP > 5MK > Dash
+* j.HP > 2MP > Dash
+* j.HP > 2MK > 2MP > Dash
+##### Standing Opponent
+* j.HK, 2LP > 5LP > Dash
+
+#### 3. Super
+<video data-videojs data-src="media/videos/combos/super_cancel.mp4"
+class="video-js vjs-theme-city"></video>
+
+##### Super link
+* 2MK > Super
+* 2MK, 2MK > Super
+##### Super cancel
+* 2MP or 2HP > Super
+* 2MK > 2MP > Super
+* 2MK > 5MK > Super
+##### Renda cancel (Super chain cancel)
+* 2LP, 2LP, 2LP > Super : `[1]LP,LP > 321LP > 6LP~MP`
+* 2LP, 2LP, 5LP > Super : `[1]LP,LP > 3214LP > 6LP~MP`
+
+</details>
+
+
+
