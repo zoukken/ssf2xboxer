@@ -44,7 +44,7 @@ h5{font-family:var(--mono);font-size:.8rem;letter-spacing:.1em;text-transform:up
 details{background:var(--bg3);border:1px solid var(--border);border-radius:4px;margin:16px 0;overflow-x:auto}
 details li,details ul{margin-left:10px;margin-right:10px;padding:0;color:#a9a9a9;font-size:var(--fs-body)}
 summary{font-family:var(--mono);font-size:var(--fs-body);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);padding:12px 18px;cursor:pointer;user-select:none;transition:background .15s}
-#content summary:hover,#matchups-section summary{background:rgba(232,200,64,.07)}
+summary:hover,#matchups-section summary{background:rgba(232,200,64,.07)}
 #content details[open] summary,#matchups-section details[open] summary{border-bottom:1px solid var(--border)}
 #content details>:not(summary),#matchups-section details>:not(summary){padding:0 18px 8px}
 .character-select{margin:5px}
