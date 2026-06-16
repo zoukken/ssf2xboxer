@@ -10,9 +10,9 @@
 <video data-videojs data-src="media/videos/matchups/honda/Honda_Oichio.mp4"
 class="video-js vjs-theme-city"></video>
 
-* Oichio beats your throw and meaties, and it also punishes close TAP and Super.
+* Oichio beats your throw and meaties, and it also punishes close TAP (lvl2+) and Super.
 * Don’t stick to him, using tick throw is risky
-* Always use long blockstrings (ex: 4 jabs) to avoid Oichio
+* Always use long blockstrings (ex: 3 jabs) to avoid Oichio
 
 ## Sumo Headbutt
 <video data-videojs data-src="media/videos/matchups/honda/Honda_SumoHeadbutt.mp4"

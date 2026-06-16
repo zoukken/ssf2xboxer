@@ -34,17 +34,19 @@ class="video-js vjs-theme-city"></video>
 | 2MK | Meaty <br> Frametraps <br> Low counter (slides, 2MK, etc.) <br> Link: 2MP or Super |
 | 5HP | Long range <br> Frametraps |
 
-#### 2. Anti-air & Headbutt
+#### 2. Anti-air
 <video data-videojs data-src="media/videos/guide/anti-air.mp4"
 class="video-js vjs-theme-city"></video>
 
-|  |  |
-| :--- | :--- |
-| Normals | 2HP or 5MP |
-| Specials | Upper or Headbutt |
-
 ##### Headbutt
 Headbutt has invincible startup, can pass through projectiles, and is useful for frametraps. It is generally safe depending on the range and matchup. LP Headbutt is the fastest version but travels the shortest distance, while MP and HP Headbutts are slower and reach farther.
+
+|  |  |
+| :--- | :--- |
+| Anti-air Normals | 2HP or 5MP |
+| Anti-air Specials | Upper or Headbutt |
+
+
 
 #### 2. Throw
 
@@ -54,28 +56,25 @@ class="video-js vjs-theme-city"></video>
 Use MP throw since it has the highest range, and st.MP can also act as an anti-air. 
 After a successful throw, follow with powerful mixups.
 
-##### Throw setups
-* 2LP,2LP > throw (or mix with headbutt)
-* 2MP or 2MK > micro walk > throw
-* On crouch: whiff Ground Upper > throw
 ##### Throw mixups
 * After a throw, mix by staying in front or go behind. Then, confirm or tick throw and repeat.
 * Fake going behind, then use 2HK to bait a button press (looses to invincible reversal)
 * ⚠️ Mixup timing varies by character, you should practice it for consistency.
-##### Throw > Safe Jump
-* Hold (9) during throw for an auto-timed safe jump. 
-* Only works midscreen against Boxer and FeiLong (jHP) and Cammy (jLK).
-##### Throw > Meaty combos
-* Only on Hawk, Sagat, Gief, Boxer, Honda : Throw > Meaty 2MK > 2HK or 5HP
+
+|  |  |
+| :--- | :--- |
+| Throw setups | 2LP,2LP > throw (or mix with headbutt) <br> 2MP or 2MK > micro walk > throw <br> On crouch: whiff Ground Upper > throw |
+| Throw > Safe Jump | Hold (9) during throw for an auto-timed safe jump. <br> Only works midscreen on Boxer, FeiLong (jHP) and Cammy (jLK). |
+| Throw > Meaty combos | Throw > Meaty 2MK > 2HK or 5HP <br> Only on Hawk, Sagat, Gief, Boxer and Honda |
 
 #### 4. Super - Crazy Buffalo
 <video data-videojs data-src="media/videos/guide/boxer_crazy_buffalo.mp4"
 class="video-js vjs-theme-city"></video>
 
-This super has invincible startup, comes out fast, breaks through projectiles, and deals high damage. It punishes unsafe moves and fireballs, scores chip kills, works as a wake‑up reversal, and combos from 2MK link or renda cancel. However, it becomes unsafe at distance due to a gap, and is always punishable against Hawk, Gief, and Honda.
+This fast, invincible super deals high damage and beats projectiles. It is great for punishing fireballs, chipping out low-health opponents, using as a wake-up reversal, or combos. However, it leaves a gap at a distance, making it unsafe.
 
 ##### Notes
-* Quicker inputs: `[1],3,1,3+P/K`
+* Quicker inputs, use diagonals instead of back/forward: `[1],3,1,3+P/K`
 * Upper (K) whiffs on crouch. Hold (P) to only use straights. 
 * End with headbutt to keep pressure (risky - unsafe).
 
@@ -85,12 +84,13 @@ class="video-js vjs-theme-city"></video>
 
 * Hold then release PPP or KKK
 * TAP has 8 levels, increasing with hold time. Higher levels boost speed, range, damage, and blockstun.
+* TAP lets you quickly close distance, find trades, sets up frametraps, meaties, and build meter. It's useful against zoners and deals high damage or reward.
 
 ##### Tips
 * Begin with level 2: Hold TAP before the round start
 * Hold PPP/KKK during a special then release.
 * Quickly use TAP right after a special (and vice versa)
-* TAP lets you quickly close distance, find trades, sets up frametraps, meaties, and build meter. It's useful against zoners and deals high damage or reward.
+
 
 #### 6. Charge management
 <video data-videojs data-src="media/videos/guide/boxer_charge_management.mp4"
@@ -106,12 +106,6 @@ class="video-js vjs-theme-city"></video>
 | Upper LK > Super | Upper LK, then quickly input 4,6+P/K. |
 | Headbutt > Super | Hold (7) to Headbutt, then quickly input 4,6+P/K. |
 
-
-#### Misc
-* Most moves are positive on block, except 2HK at (−2F), Super at (−3F/−5F), and Headbutt at (−7F/−10F). 
-* Dashes are highly plus, up to (+10F) and allow frametraps or throw setups.
-
-
 </details>
 
 
@@ -123,7 +117,7 @@ class="video-js vjs-theme-city"></video>
 <video data-videojs data-src="media/videos/advanced/Meter_build.mp4"
 class="video-js vjs-theme-city"></video>
 
-* It is important to get the super especially in hard matchups
+* Having super is crucial in hard matchups.
 * Build meter whenever possible by whiffing special moves, especially after a knockdown.
 
 ##### Midscreen - Knockdown
@@ -149,18 +143,11 @@ class="video-js vjs-theme-city"></video>
 * Punish their mash attempts and hit confirm when possible... or condition them with tick throws.
 * ⚠️ Frametraps lose to reversals and may vary depending on the matchup
 
-
-##### Ground
-* 5MK > 2MK / 2MP
-* 2MK > 2MK / 2HK / 5HP
-* 2MP > 5HP / 2MK
-* 2LP,2LP > 2MP / 2HK / Headbutt
-* 2LP,2LP,2LP > 2MP
-* Dash low LP > 5HP / Headbutt (close range)
-##### Jump-in
-* j.MP > 2HK / 2MP
-##### TAP
-* lvl 3+ > Super / Headbutt (need proper spacing)
+|  |  |
+| :--- | :--- |
+| Ground | 5MK > 2MK / 2MP <br> 2MK > 2MK / 2HK / 5HP <br> 2MP > 5HP / 2MK <br> 2LP,2LP > 2MP / 2HK <br> 2LP,2LP > Headbutt <br> 2LP,2LP,2LP > 2MP <br> Dash low LP > 5HP <br> Dash low LP > Headbutt |
+| Jump | j.MP > 2HK / 2MP |
+| TAP | TAP lvl 3+ > Super <br> TAP lvl 3+ > Headbutt (need proper spacing)|
 
 #### 3. Safe jumps
 <video data-videojs data-src="media/videos/advanced/SafeJump.mp4"
@@ -171,32 +158,26 @@ class="video-js vjs-theme-city"></video>
 
 |        |                           |
 |---------------|--------------------------------|
-| Midscreen      | Dash low > 2LP > j.HP <br> 2HK > 2LP > j.HP <br> Headbutt > Upper > 2LP > j.HP <br> Ground Upper > TAP lvl1 > j.HP            |
-| Corner      | Dash low > j.HP <br> Headbutt > 2LP > j.HP <br> Ground Upper > 2MK > j.HP            |
-| During throw      | Hold (9) > jHP (Boxer, Feilong) <br> Hold (9) > jLK (Cammy)            |
+| Midscreen | - Dash low > 2LP > j.HP <br> - 2HK > 2LP > j.HP <br> - Headbutt > Upper > 2LP > j.HP <br> - Ground Upper > TAP lvl1 > j.HP            |
+| Corner | - Dash low > j.HP <br> - Headbutt > 2LP > j.HP <br> - Ground Upper > 2MK > j.HP            |
+| During throw | - Hold (9) > jHP (Boxer, Feilong) <br> - Hold (9) > jLK (Cammy)            |
 
 
 #### 4. Ground Upper Mixups
 <video data-videojs data-src="media/videos/advanced/Ground_Upper.mp4"
 class="video-js vjs-theme-city"></video>
 
-* Ground upper is fast and whiffs on crouch. 
-* Leaves you close for MP throw. 
-* Use it on crouch or wake-up to mix with throw, meaty, headbutt, or super.
-
-At mid range, use Ground Upper LK to quickly react to opponents walking forward.
+Ground Upper is quick and misses on crouch, but it keeps you close for MP throw, meaty, Headbutt, or Super. You can also use it on the opponent’s wake‑up.
+At mid range, use Upper LK to quickly react to opponents walking forward.
 
 #### 5. Fuzzy & Instant overhead
 Fuzzy and instant overheads can be unsafe on block, you should use them to finish the opponent.
 
-##### Instant overhead
-* j.LK or neutral jump LP/LK
-##### Fuzzy
-* j.LK > j.LK
-##### Setups (all ranges)
-* (Knockdown) Dash low --> whiff TAP > j.LK
-* (On crouch) Whiff Ground Upper > j.LK
-* Throw --> walk > j.LK (need timing)
+|        |                           |
+|---------------|--------------------------------|
+| Instant overhead | - j.LK or neutral jump LP/LK  |
+| Fuzzy | - j.LK > j.LK |
+| Setups (all ranges)| - (Knockdown) Dash low --> whiff TAP > j.LK <br> - (On crouch) Whiff Ground Upper > j.LK <br> - Throw --> walk > j.LK (need timing) |
 
 
 #### 6. Side switch & Cross down
@@ -205,8 +186,8 @@ class="video-js vjs-theme-city"></video>
 
 |        |                           |
 |---------------|--------------------------------|
-| Midscreen      | Headbutt anti-air --> Dash low > Headbutt HP <br> Headbutt --> Upper > Headbutt HP <br> Throw > Walk            |
-| Corner      | Throw > Upper <br> Throw > Walk            |
+| Midscreen      | - Headbutt anti-air --> Dash low > Headbutt HP <br> - Headbutt --> Upper > Headbutt HP <br> - Throw > Walk            |
+| Corner      | - Throw > Upper <br> - Throw > Walk  |
 
 
 
@@ -225,13 +206,9 @@ class="video-js vjs-theme-city"></video>
 <video data-videojs data-src="media/videos/advanced/AutoStand.mp4"
 class="video-js vjs-theme-city"></video>
 
-* A bug makes boxer's 2LP act as 5LP.
-* whiff 5LP to store the bug. Try with 2LK,2LP (boxer will auto-stand).
+* A bug makes boxer's 2LP act as 5LP. Whiff 5LP to store the bug. Try with 2LK,2LP (boxer will auto-stand).
 * The bug ends at round start or after a whiffed punch or standing kick, but stays with LP mash, crouch kicks, specials or super.
-
-##### Standing headbut
-
-When the bug is active, mash stand LP without losing your down charge, letting you perform a headbutt from standing to surprise your opponent.
+* When the bug is active, mash stand LP without losing your down charge, letting you perform a headbutt from standing to surprise your opponent.
 
 #### 9. Walk > Super
 
@@ -241,6 +218,9 @@ Boxer’s Super can be broken into parts, letting you charge then walk for up to
   * Part 1: charge and walk up to 15F
   * Part 2: back 1F
   * Part 3: walk up to 11F then press P
+
+</details>
+
 
 <details>
   <summary>Combos</summary>
